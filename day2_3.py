@@ -1,4 +1,4 @@
-class Student:
+ class Student:
     def __init__(self,name):
         self.name = name
 
@@ -25,6 +25,6 @@ avg = a001.calculate_avg(data)
 result = a001.jedge(avg)
 
 print(avg)
-print(a001.name + " " + result)
+print(a001.name + "" + result)
 
 
